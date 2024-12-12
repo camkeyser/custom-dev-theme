@@ -1,0 +1,26 @@
+/*
+Theme Name: Custom Dev Theme
+Author: Cam Keyser
+Description: WordPress Theme for Cam's Portfolio
+Version: 1.1
+Text Domain: custom-dev-theme
+*/
+
+
+/*
+[DEV NOTES: PLUGINS]
+
+/-----Search Plugin Override-----/
+**This plugin has been overridden. Plugin Files have been included in the root folder of the repository**
+
+-Modified the description field in search results to display the post type instead of the content.
+
+File location:
+wp-content/plugins/ajax-search-lite/includes/classes/search/class-asl-search-cpt.php
+
+Line 1606 - 1610
+
+Original Code:
+$_content = $r->content;
+
+*/

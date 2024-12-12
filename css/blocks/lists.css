@@ -1,0 +1,83 @@
+.list-block-section {
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0px 75px 30px;
+}
+
+.list-block h2 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.list-block p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.list-items {
+    padding: 0;
+    margin: 42px 0 0 25px;
+}
+
+.list-items li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+}
+
+.list-no-style {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.list-icon li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.list-icon li i {
+    width: 18px;
+    height: 18px;
+    stroke-width: 2;
+    color: #333;
+    flex-shrink: 0;
+    margin-top: 0.25rem;
+}
+
+.list-block-section.columns-one .list-items {
+    display: block;
+}
+
+.list-block-section.columns-two .list-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.list-block-section.columns-three .list-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+@media (max-width: 1150px) {
+    .list-block-section.columns-three .list-items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 850px) {
+    .list-block-section {
+        padding: 0 35px 65px;
+    }
+}
+
+@media (max-width: 550px) {
+    .list-block-section.columns-three .list-items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

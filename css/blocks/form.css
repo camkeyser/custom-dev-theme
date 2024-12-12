@@ -1,0 +1,196 @@
+/* Gravity Forms Styles */
+.gform_heading .gform_required_legend {
+    display: none;
+}
+
+/* ----------------------
+General Form Styles 
+---------------------- */
+body .gform_wrapper {
+    font-family: inherit;
+    color: #fff;
+    background-color: #0b1b2b;
+    z-index: 9;
+    position: relative;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+body .gform_wrapper h2.gform_title {
+    color: #fff
+}
+
+/* Form Labels */
+body .gform_wrapper .gfield_label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+/* Form Descriptions */
+body .gform_wrapper .gfield_description {
+    font-size: 14px;
+    color: #eee;
+    margin-bottom: 10px;
+}
+
+/* Input Fields */
+body .gform_wrapper .ginput_container input[type="text"],
+body .gform_wrapper .ginput_container input[type="email"],
+body .gform_wrapper .ginput_container input[type="url"],
+body .gform_wrapper .ginput_container input[type="tel"],
+body .gform_wrapper .ginput_container input[type="number"],
+body .gform_wrapper .ginput_container input[type="password"],
+body .gform_wrapper .ginput_container textarea,
+body .gform_wrapper .ginput_container select {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 16px;
+    color: #282828;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+/* Input Fields Focus State */
+body .gform_wrapper .ginput_container input[type="text"]:focus,
+body .gform_wrapper .ginput_container input[type="email"]:focus,
+body .gform_wrapper .ginput_container input[type="url"]:focus,
+body .gform_wrapper .ginput_container input[type="tel"]:focus,
+body .gform_wrapper .ginput_container input[type="number"]:focus,
+body .gform_wrapper .ginput_container input[type="password"]:focus,
+body .gform_wrapper .ginput_container textarea:focus,
+body .gform_wrapper .ginput_container select:focus {
+    border-color: #fff;
+    outline: none;
+}
+
+/* Placeholder Text */
+body .gform_wrapper ::placeholder {
+    color: #282828;
+    opacity: 1;
+}
+
+/* Checkboxes and Radio Buttons */
+body .gform_wrapper .gfield_checkbox input[type="checkbox"] + label,
+body .gform_wrapper .gfield_radio input[type="radio"] + label {
+    font-size: 16px;
+    color: #fff;
+}
+
+/* Submit Button */
+body .gform_wrapper .gform_footer .gform_button {
+    background-color: #218d25;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* Submit Button Hover */
+body .gform_wrapper .gform_footer .gform_button:hover {
+    background-color: #005bb5;
+}
+
+/* Next and Previous Buttons */
+body .gform_wrapper .gform_footer .gform_next_button,
+body .gform_wrapper .gform_footer .gform_previous_button {
+    background-color: #666;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Next and Previous Buttons Hover */
+body .gform_wrapper .gform_footer .gform_next_button:hover,
+body .gform_wrapper .gform_footer .gform_previous_button:hover {
+    background-color: #444;
+}
+
+/* Error Messages */
+body .gform_wrapper .validation_message,
+body .gform_wrapper .gfield_error .gfield_label,
+body .gform_wrapper .gfield_error .ginput_container input,
+body .gform_wrapper .gfield_error .ginput_container textarea,
+body .gform_wrapper .gfield_error .ginput_container select {
+    color: #e60000;
+    border-color: #e60000;
+}
+
+/* Progress Bar */
+body .gform_wrapper .gf_progressbar_wrapper {
+    background-color: #e6e6e6;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+body .gform_wrapper .gf_progressbar {
+    background-color: #0b1b2b;
+    height: 20px;
+    border-radius: 4px;
+}
+
+/* Confirmation Message */
+body .gform_confirmation_message {
+    font-size: 16px;
+    color: #333;
+    background-color: #e6f7ff;
+    padding: 20px;
+    border: 1px solid #b3e0ff;
+    border-radius: 4px;
+}
+
+/* File Upload Field */
+body .gform_wrapper .ginput_container_fileupload input[type="file"] {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Date Picker Styles */
+body .gform_wrapper .gfield .ginput_container .datepicker {
+    width: 100%;
+}
+
+/* Consent Field */
+body .gform_wrapper .gfield_consent .gfield_consent_label {
+    font-size: 16px;
+    color: #fff;
+}
+
+/* Section Break Title and Description */
+body .gform_wrapper .gsection_title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+body .gform_wrapper .gsection_description {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Progress Indicator Text */
+body .gform_wrapper .gf_step {
+    font-size: 16px;
+    color: #fff;
+}
+
+/* Adjusting Specificity Without !important */
+body .gform_wrapper .gfield_checkbox input[type="checkbox"],
+body .gform_wrapper .gfield_radio input[type="radio"] {
+    margin-right: 10px;
+}
+

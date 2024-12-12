@@ -1,0 +1,96 @@
+.stats-counter-block {
+    max-width: 100%;
+    text-align: center;
+    margin: 80px auto 0;
+    background-color: #0b1b2b;
+    padding: 120px 75px 180px;
+    overflow: hidden;
+}
+
+.stats-counter-block h2 {
+    text-align: left;
+    max-width: 1350px;
+    margin: 0 auto 30px;
+    color: white;
+    font-size: 1.75rem;
+}
+
+.stats-grid {
+    display: grid;
+    gap: 20px;
+}
+
+.stats-top-divide {
+    background: url('../../img/top-tab.svg') no-repeat;
+    background-size: cover;
+    height: 50px;
+    position: absolute;
+    z-index: 9;
+    width: 60%;
+    margin-left: auto;
+    right: 0;
+    margin-top: 80px;
+}
+
+.stats-bot-divide {
+    background: url('../../img/bot-tab2.svg');
+    background-size: cover;
+    height: 50px;
+    position: absolute;
+    z-index: 9;
+    width: 60%;
+    margin-right: auto;
+    left: 0;
+    margin-top: -50px;
+}
+
+.stats-item {
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stats-number {
+    font-size: 2.5em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.stats-number svg {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px 0 3px;
+}
+
+.stats-count {
+    font-family: "Righteous", serif;
+    font-size: 5rem;
+}
+
+.stats-number i {
+    margin: 0 5px;
+    transition: color 0.3s ease;
+}
+
+.stats-label {
+    font-size: 1.1em;
+    color: #fff;
+}
+
+@media (max-width: 1000px) {
+    .stats-grid {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+@media (max-width: 850px) {
+    .stats-counter-block h2 {
+        max-width: 90%;
+    }
+    .stats-counter-block {
+        padding: 120px 0 180px;
+    }
+}

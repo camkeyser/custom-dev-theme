@@ -1,0 +1,10 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background (optional) -->
+  <rect width="200" height="200" fill="none" />
+  
+  <!-- First Slanted Stripe -->
+  <rect x="50" y="-20" width="20" height="240" fill="white" transform="rotate(45, 50, 100)" />
+  
+  <!-- Second Slanted Stripe -->
+  <rect x="100" y="-20" width="20" height="240" fill="white" transform="rotate(45, 100, 100)" />
+</svg>

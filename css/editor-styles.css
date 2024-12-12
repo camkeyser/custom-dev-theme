@@ -1,0 +1,108 @@
+/* Styles for Custom Block Labels in the Editor */
+
+/* General Styles for Block Editor */
+.acf-block-body .acf-block-fields {
+    border: #282828 solid 1px !important;
+    border-radius: 0 8px 8px 8px;
+}
+.acf-block-component.acf-block-body {
+padding-bottom: 42px !important;
+}
+
+/* General Styles for the Labels */
+.wp-block[data-type^="acf/"]::before {
+    position: absolute;
+    top: -13px;
+    left: 0;
+    background-color: #282828;
+    color: #fff;
+    padding: 4px 10px;
+    font-size: 12px;
+    border-radius: 5px 5px 0 0;
+    z-index: 10;
+}
+
+.wp-block[data-type^="acf/"] {
+    position: relative;
+    padding-top: 12px;
+}
+
+/* 1. Simple Text */
+.wp-block[data-type="acf/simple-text-block"]::before {
+    content: "Simple Text";
+}
+
+/* 2. Full Width Hero Image */
+.wp-block[data-type="acf/full-width-hero-image"]::before {
+    content: "Full Width Hero Image";
+}
+
+/* 3. Two-Column Section */
+.wp-block[data-type="acf/two-column-section"]::before {
+    content: "Two-Column Section";
+}
+
+/* 4. Accordion */
+.wp-block[data-type="acf/accordion-block"]::before {
+    content: "Accordion";
+}
+
+/* 5. Call to Action */
+.wp-block[data-type="acf/cta-block"]::before {
+    content: "Call to Action";
+}
+
+/* 6. Gallery Grid */
+.wp-block[data-type="acf/gallery-grid-block"]::before {
+    content: "Gallery Grid";
+}
+
+/* 7. Pricing Table */
+.wp-block[data-type="acf/pricing-table-block"]::before {
+    content: "Pricing Table";
+}
+
+/* 8. Team Member */
+.wp-block[data-type="acf/team-member-block"]::before {
+    content: "Team Member";
+}
+
+/* 9. Content Cards */
+.wp-block[data-type="acf/content-cards"]::before {
+    content: "Content Cards";
+}
+
+/* 10. Recent Posts */
+.wp-block[data-type="acf/recent-posts-block"]::before {
+    content: "Recent Posts";
+}
+
+/* 11. Stats/Counter */
+.wp-block[data-type="acf/stats-counter-block"]::before {
+    content: "Stats/Counter";
+}
+
+/* 12. Video Embed */
+.wp-block[data-type="acf/video-embed-block"]::before {
+    content: "Video Embed";
+}
+
+/* 13. Full Width Parallax Section */
+.wp-block[data-type="acf/full-width-parallax-section"]::before {
+    content: "Full Width Parallax Section";
+}
+
+/* 14. Image Slider */
+.wp-block[data-type="acf/image-slider"]::before {
+    content: "Image Slider";
+}
+
+/* 15. List Block */
+.wp-block[data-type="acf/list-block"]::before {
+    content: "List";
+}
+
+/* 15. Map Block */
+.wp-block[data-type="acf/map-embed-block"]::before {
+    content: "Map Embed";
+}

@@ -1,0 +1,11 @@
+/* Menu Extender Styles */
+.menu-item-custom-fields img {
+    max-width: 150px;
+}
+.menu-item-custom-fields .menu-item-icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 15px 0;
+}
