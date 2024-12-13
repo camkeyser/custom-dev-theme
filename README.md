@@ -53,7 +53,7 @@ custom-dev-theme/
 ### Installation
 1. Download or clone the theme into your WordPress `wp-content/themes/` directory:
    ```bash
-   git clone https://github.com/yourusername/custom-dev-theme.git
+   git clone https://github.com/camkeyser/custom-dev-theme.git
    ```
 
 2. Activate the theme in the WordPress admin dashboard under **Appearance > Themes**.
